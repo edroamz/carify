@@ -3,17 +3,18 @@ import React from "react";
 import "./styles/main.css";
 import Index from "./pages";
 import NotFound from "./pages/notFound";
-import { Route, Switch } from "react-router-dom";
+import { Route, Switch, Redirect, withRouter } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
       <Switch>
         <Route exact path="/" component={Index}></Route>
-        <Route component={NotFound}></Route>
+        <Route path='/not-found' component={NotFound}></Route>
+        <Redirect to='/not-found'></Redirect>
       </Switch>
     </div>
   );
 }
 
-export default App;
+export default withRouter(App);
