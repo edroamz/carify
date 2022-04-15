@@ -6,13 +6,11 @@ import { Layout } from "./components";
 import * as serviceWorker from "./serviceWorker";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <BrowserRouter basename="/carify">
-      <Layout>
-        <App />
-      </Layout>
-    </BrowserRouter>
-  </React.StrictMode>,
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <Layout>
+      <App />
+    </Layout>
+  </BrowserRouter>,
   document.getElementById("root")
 );
 
