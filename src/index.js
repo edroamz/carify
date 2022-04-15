@@ -6,13 +6,13 @@ import { Layout } from "./components";
 import * as serviceWorker from "./serviceWorker";
 
 ReactDOM.render(
-  <BrowserRouter basename={process.env.PUBLIC_URL}>
-    <React.StrictMode>
+  <React.StrictMode>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Layout>
         <App />
       </Layout>
-    </React.StrictMode>
-  </BrowserRouter>,
+    </BrowserRouter>
+  </React.StrictMode>,
   document.getElementById("root")
 );
 
