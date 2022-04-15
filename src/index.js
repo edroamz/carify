@@ -1,17 +1,17 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { HashRouter } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 import App from "./App";
 import { Layout } from "./components";
 import * as serviceWorker from "./serviceWorker";
 
 ReactDOM.render(
   <React.StrictMode>
-    <HashRouter basename={process.env.PUBLIC_URL}>
+    <BrowserRouter basename="/carify">
       <Layout>
         <App />
       </Layout>
-    </HashRouter>
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById("root")
 );
