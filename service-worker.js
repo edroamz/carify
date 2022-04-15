@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/carlify/precache-manifest.6dcd7407ced869d5c409dd54625b6050.js"
+  "/carlify/precache-manifest.aafcbb9e074ae4b86b8340713d6c460e.js"
 );
 
 self.addEventListener('message', (event) => {
