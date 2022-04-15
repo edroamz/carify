@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "32d11f58f43dc54094114df8891a9f5f",
+    "revision": "fc10f32789f1798af8aec7b71b39a367",
     "url": "/carlify/index.html"
   },
   {
-    "revision": "071e08a47cb2ddacfb76",
+    "revision": "675e63f02815b100f905",
     "url": "/carlify/static/css/main.895860f5.chunk.css"
   },
   {
-    "revision": "e2941799f4db8ffc4f08",
-    "url": "/carlify/static/js/2.a9b71f8e.chunk.js"
+    "revision": "a5d7f6780be3a3ac4253",
+    "url": "/carlify/static/js/2.4e4ffa4a.chunk.js"
   },
   {
     "revision": "aa4100970f46d7e0ec2af84de3f2740b",
-    "url": "/carlify/static/js/2.a9b71f8e.chunk.js.LICENSE.txt"
+    "url": "/carlify/static/js/2.4e4ffa4a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "071e08a47cb2ddacfb76",
-    "url": "/carlify/static/js/main.b7630309.chunk.js"
+    "revision": "675e63f02815b100f905",
+    "url": "/carlify/static/js/main.fd6cc7ef.chunk.js"
   },
   {
     "revision": "66932a657358800ce5e1",
