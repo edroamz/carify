@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/carlify/static/css/main.895860f5.chunk.css",
-    "main.js": "/carlify/static/js/main.d12ed451.chunk.js",
-    "main.js.map": "/carlify/static/js/main.d12ed451.chunk.js.map",
+    "main.js": "/carlify/static/js/main.b7630309.chunk.js",
+    "main.js.map": "/carlify/static/js/main.b7630309.chunk.js.map",
     "runtime-main.js": "/carlify/static/js/runtime-main.36edfe13.js",
     "runtime-main.js.map": "/carlify/static/js/runtime-main.36edfe13.js.map",
     "static/js/2.a9b71f8e.chunk.js": "/carlify/static/js/2.a9b71f8e.chunk.js",
     "static/js/2.a9b71f8e.chunk.js.map": "/carlify/static/js/2.a9b71f8e.chunk.js.map",
     "index.html": "/carlify/index.html",
-    "precache-manifest.09a3af6d2f76bba0a9ef89f54653aded.js": "/carlify/precache-manifest.09a3af6d2f76bba0a9ef89f54653aded.js",
+    "precache-manifest.a50f3af87657060e7835fab2b6cfab07.js": "/carlify/precache-manifest.a50f3af87657060e7835fab2b6cfab07.js",
     "service-worker.js": "/carlify/service-worker.js",
     "static/css/main.895860f5.chunk.css.map": "/carlify/static/css/main.895860f5.chunk.css.map",
     "static/js/2.a9b71f8e.chunk.js.LICENSE.txt": "/carlify/static/js/2.a9b71f8e.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.36edfe13.js",
     "static/js/2.a9b71f8e.chunk.js",
     "static/css/main.895860f5.chunk.css",
-    "static/js/main.d12ed451.chunk.js"
+    "static/js/main.b7630309.chunk.js"
   ]
 }
