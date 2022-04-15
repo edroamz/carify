@@ -117,7 +117,7 @@ const Services = () => {
                     />
                   </svg>
                 }
-                title="1,000+ distributors around the globe"
+                title="1,000+ distributors around the world"
                 text="Lorem ipsum, dolor sit amet consectetur adipisicing
                           elit. "
               ></ServiceItem>

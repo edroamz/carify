@@ -1,14 +1,11 @@
 import React from "react";
 
-const Announcement = () => {
+const Announcement = ({ longMessage, shortMessage }) => {
   return (
     <div className="relative w-full h-12 bg-black text-gray-200 border-b border-accents-7 text-center text-sm">
       <div className="max-w-screen-xl h-full flex justify-center items-center space-x-4 mx-auto px-8">
-        <span className="hidden md:block">
-          The health and safety of our staff, customers, and community is our
-          top priority.
-        </span>
-        <span className="md:hidden">Your safety is our top priority.</span>
+        <span className="hidden md:block">{longMessage}</span>
+        <span className="md:hidden">{shortMessage}</span>
         <span>Learn More →</span>
         <span className="absolute cursor-pointer" style={{ right: `20px` }}>
           <svg

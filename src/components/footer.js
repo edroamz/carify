@@ -24,7 +24,7 @@ const Footer = () => {
                 href="https://github.com/edroamz/"
                 className="underline hover:no-underline"
               >
-                Eduardo R. Ambriz
+                Eduardo Rodriguez
               </a>
               . You can find the repository{" "}
               <a

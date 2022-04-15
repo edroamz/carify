@@ -1,6 +1,5 @@
 import React from "react";
-import Header from "../components/header";
-import Footer from "../components/footer";
+import {Announcement, Header, Footer} from "../components";
 import { motion } from "framer-motion";
 
 const Layout = ({ children }) => {
@@ -10,6 +9,11 @@ const Layout = ({ children }) => {
       animate={{ opacity: 1 }}
       className="w-full h-full overflow-auto m-0 p-0 overflow-x-hidden"
     >
+      <Announcement
+        longMessage="The health and safety of our staff, customers, and community is our
+          top priority."
+        shortMessage="Your safety is our top priority."
+      ></Announcement>
       <Header></Header>
       <main>{children}</main>
       <Footer></Footer>

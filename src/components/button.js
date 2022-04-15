@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const sizes = {
   xs: "px-3 py-1",
@@ -13,11 +14,11 @@ const colors = {
 };
 
 const Btn = (props) => <button {...props} />;
-const Link = (props) => <a {...props} />;
+const ReactLink = (props) => <Link {...props} />;
 
 const components = {
   button: Btn,
-  link: Link,
+  link: ReactLink,
 };
 
 const Button = ({
